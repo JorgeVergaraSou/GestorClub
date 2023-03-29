@@ -6,7 +6,7 @@ import { Deporte, Jugador } from "./Jugador"
 
 export default class GestorClub{
     constructor(){
-        fs.writeFileSync('./socios.json', '[]')
+       // fs.writeFileSync('./socios.json', '[]')
     }
 /* funcion que lee archivo json y retorna los datos */
     data() { return JSON.parse(fs.readFileSync('./socios.json')) }    
