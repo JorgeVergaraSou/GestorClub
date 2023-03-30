@@ -1,4 +1,3 @@
-
 const fs = require('fs')
 const readlineSync = require('readline-sync')
 
@@ -9,6 +8,7 @@ export default class GestorClub{
        // fs.writeFileSync('./socios.json', '[]')
     }
 /* funcion que lee archivo json y retorna los datos */
+    
     data() { return JSON.parse(fs.readFileSync('./socios.json')) }    
 
     agregarSocio(){
@@ -37,5 +37,23 @@ export default class GestorClub{
         let nombreSocio = this.data().find((socio: { nombre: string }) => socio.nombre === nombre.toLowerCase())
         console.log(nombreSocio);
         return nombreSocio;
+    }
+
+    buscarXApellido(apellido:string){
+        let apellidoSocio = this.data().find((socio: { apellido: string }) => socio.apellido === apellido.toLowerCase())
+        console.log(apellidoSocio);
+        return apellidoSocio;
+    }
+
+    buscarXDocumento(documento:string){
+        let documentoSocio = this.data().find((socio: { documento: string }) => socio.documento === documento)
+        console.log(documentoSocio);
+        return documentoSocio;
+    }
+
+    buscarXTelefono(telefono:string){
+        let telefonoSocio = this.data().find((socio: { telefono: string }) => socio.telefono === telefono)
+        console.log(telefonoSocio);
+        return telefonoSocio;
     }
 }
