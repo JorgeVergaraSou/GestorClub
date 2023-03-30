@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "nombre": "alexis",
+    "apellido": "sanchez",
+    "fechaNacimiento": "5/5/1918",
+    "documento": "22222",
+    "telefono": "11111",
+    "miembroDesde": "28/3/2023",
+    "deporte": 0
+  },
+  {
+    "nombre": "arturo",
+    "apellido": "vidal",
+    "fechaNacimiento": "2/2/1990",
+    "documento": "77777",
+    "telefono": "55555",
+    "miembroDesde": "28/3/2023",
+    "deporte": 0
+  },
+  {
+    "nombre": "claudio",
+    "apellido": "bravo",
+    "fechaNacimiento": "3/3/1979",
+    "documento": "123456789",
+    "telefono": "2494785623",
+    "miembroDesde": "28/3/2023",
+    "deporte": 5
+  },
+  {
+    "nombre": "gary",
+    "apellido": "medel",
+    "fechaNacimiento": "4/4/1981",
+    "documento": "11236789",
+    "telefono": "2494124589",
+    "miembroDesde": "28/3/2023",
+    "deporte": 4
+  },
+  {
+    "nombre": "jorge",
+    "apellido": "valdivia",
+    "fechaNacimiento": "25/6/1982",
+    "documento": "14161778",
+    "telefono": "2494123789",
+    "miembroDesde": "28/3/2023",
+    "deporte": 3
+  },
+  {
+    "nombre": "ben",
+    "apellido": "brereton",
+    "fechaNacimiento": "7/7/1986",
+    "documento": "54012365",
+    "telefono": "2494561999",
+    "miembroDesde": "28/3/2023",
+    "deporte": 2
+  },
+  {
+    "nombre": "marcelo",
+    "apellido": "barticcioto",
+    "fechaNacimiento": "24/5/1975",
+    "documento": "14569058",
+    "telefono": "2494563109",
+    "miembroDesde": "28/3/2023",
+    "deporte": 1
+  },
+  {
+    "nombre": "marcelo",
+    "apellido": "espina",
+    "fechaNacimiento": "17/3/1970",
+    "documento": "10985542",
+    "telefono": "2494563108",
+    "miembroDesde": "28/3/2023",
+    "deporte": 0
+  },
+  {
+    "nombre": "mirko",
+    "apellido": "jozic",
+    "fechaNacimiento": "16/8/1952",
+    "documento": "7985461",
+    "telefono": "2494563107",
+    "miembroDesde": "28/3/2023",
+    "deporte": 3
+  },
+  {
+    "nombre": "esteban",
+    "apellido": "paredes",
+    "fechaNacimiento": "14/7/1980",
+    "documento": "13161774",
+    "telefono": "2494563105",
+    "miembroDesde": "28/3/2023",
+    "deporte": 4
+  }
+]
